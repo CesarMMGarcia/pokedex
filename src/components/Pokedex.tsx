@@ -15,11 +15,16 @@ const Pokedex: React.FC = () => {
 	}, []);
 
 	const onAlphabetizeClick = (): void => {
+		// setOriginal(data)
+		// setSorted(data.map((name:any)=> name.sort()));
+		// console.log(original)
+		// console.log(sorted)
+		console.log(data)
 		setOriginal(data)
-		setSorted(data.sort());
 		console.log(original)
-		console.log(sorted)
+		data.sort()
 	};
+	
 
 	const onIdClick = (): void => {
 		setSorted(data);
