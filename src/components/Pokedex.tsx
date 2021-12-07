@@ -27,7 +27,7 @@ const Pokedex: React.FC = () => {
 	
 
 	const onIdClick = (): void => {
-		setSorted(data);
+		console.log(data)
 	};
 
 	return (
